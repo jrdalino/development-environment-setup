@@ -1,67 +1,76 @@
-# My Project Prerequisites
+# My Development Environment Setup (MacOS)
 
-### Prerequisites for https://github.com/jrdalino/microservices-architecture-devsecops
+- Note: Python3, Pip3, virtualenv are already installed
 
-- Working Directory
+- Step 1: Install Homebrew. This intalls Xcodedevelop tools
 ```
-$ cd ~
-$ mkdir environment
-$ cd ~/environment
-```
-
-- Homebrew
-```
-$ brew --version
+$ mkdir environment && cd environment
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+$ brew update
+$ brew doctor
 ```
 
-- AWS CLI
+- Step 2: Install Productivity Applications
 ```
-$ aws --version
-$ aws configure
+$ brew cask install microsoft-office
+$ brew cask install google-backup-and-sync
+$ brew cask install google-chrome
+$ brew cask install firefox
+$ brew cask install kindle
+$ brew cask install spotify
+
+- Step 3: Install Communications
+```
+$ brew cask install slack
+$ brew cask install whatsapp
+$ brew cask install wechat
+$ brew cask install zoomus
+$ brew cask install skype
 ```
 
-- Git
+- Step 4: Install Developer Tools
 ```
-$ git --version
-$ git config --global user.name "REPLACE_ME_WITH_YOUR_NAME"
-$ git config --global user.email REPLACE_ME_WITH_YOUR_EMAIL@example.com
-$ git config --global credential.helper '!aws codecommit credential-helper $@'
-$ git config --global credential.UseHttpPath true
+$ brew install node # this installs npm as well
+$ brew cask install sublime-text
+$ brew cask install visual-studio-code
+$ brew cask install visual-studio
+$ brew cask install postman
+$ brew cask install docker
+$ brew cask install virtualbox
+$ brew cask install vagrant
+$ brew cask install vagrant-manager
+
 ```
 
-- Python
+- Step 5: Install commandline tools
 ```
-$ python3 --version
-Python 3.7.3
-```
-
-- Virtualenv
-```
-$ virtualenv --version
-16.4.3
-$ echo 'venv' > .gitignore
-$ python3 -m venv venv
-$ source venv/bin/activate
-(venv) $
-(venv) $ deactivate
+$ brew install git
+$ brew install ansible
+$ brew install terraform
+$ brew install awscli
+$ brew cask install google-cloud-sdk
+$ brew install azure-cli
+$ brew install kubectl
+$ brew install aws-iam-authenticator
+$ brew install jq
+$ brew install wget
 ```
 
-- Flask
+- Step 6: Install the following manually
 ```
-(venv) $ pip install flask
-(venv) $ flask --version
-Flask 1.0.2
-Python 3.7.3 (default, Mar 27 2019, 09:23:15) 
-[Clang 10.0.1 (clang-1001.0.46.3)]
+- Windows Remote Desktop
+- OpenVPN Client or Cisco Client VPN
 ```
 
-- Boto3
+- Step 7: Install if/when needed
 ```
-(venv) $ pip install boto3
-```
-
-- Docker
-```
-$ docker -v
-Docker version 18.09.2, build 6247962
+- Serverless Framework
+- AWS SAM
+- AWS Amplify
+- React
+- Vue
+- mysql client: sqlite
+- bandwdth test: iperf
+- network scanner: nmap
+- http load testing: wrk, wrk2, ab, siege, 
 ```
