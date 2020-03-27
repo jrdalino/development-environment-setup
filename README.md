@@ -40,6 +40,7 @@ $ brew cask install docker
 $ brew cask install virtualbox
 $ brew cask install vagrant
 $ brew cask install vagrant-manager
+$ brew cask install nosql-workbench-for-amazon-dynamodb
 ```
 
 - Step 5: Install commandline tools
