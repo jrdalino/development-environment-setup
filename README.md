@@ -18,6 +18,7 @@ $ brew cask install google-chrome
 $ brew cask install firefox
 $ brew cask install kindle
 $ brew cask install spotify
+```
 
 - Step 3: Install Communications
 ```
@@ -39,7 +40,6 @@ $ brew cask install docker
 $ brew cask install virtualbox
 $ brew cask install vagrant
 $ brew cask install vagrant-manager
-
 ```
 
 - Step 5: Install commandline tools
