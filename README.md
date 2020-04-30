@@ -18,7 +18,7 @@ $ brew cask install google-chrome
 $ brew cask install firefox
 $ brew cask install kindle
 $ brew cask install spotify
-$ brew install adobe-acrobat-reader
+$ brew cask install adobe-acrobat-reader
 ```
 
 - Step 3: Install Communications
