@@ -33,6 +33,7 @@ $ brew cask install skype
 - Step 4: Install Developer Tools
 ```
 $ brew install node # this installs npm as well
+$ brew install yarn
 $ brew cask install sublime-text
 $ brew cask install visual-studio-code
 $ brew cask install visual-studio
