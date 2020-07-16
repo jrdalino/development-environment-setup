@@ -58,6 +58,7 @@ $ brew install kubectl
 $ brew install aws-iam-authenticator
 $ brew install jq
 $ brew install wget
+$ brew cask install ngrok
 ```
 
 - Step 6: Install the following manually
