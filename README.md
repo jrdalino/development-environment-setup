@@ -29,6 +29,7 @@ $ brew cask install wechat
 $ brew cask install zoomus
 $ brew cask install skype
 $ brew cask install microsoft-teams
+$ brew install --cask duet
 ```
 
 - Step 4: Install Developer Tools
