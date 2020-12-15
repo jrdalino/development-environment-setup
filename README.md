@@ -39,6 +39,7 @@ $ brew install yarn
 $ brew cask install sublime-text
 $ brew cask install visual-studio-code
 $ brew cask install visual-studio
+$ brew install --cask intellij-idea
 $ brew cask install postman
 $ brew cask install docker
 $ brew cask install virtualbox
