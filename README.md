@@ -19,6 +19,7 @@ $ brew cask install firefox
 $ brew cask install kindle
 $ brew cask install spotify
 $ brew cask install adobe-acrobat-reader
+$ brew install --cask dropbox
 ```
 
 - Step 3: Install Communications
