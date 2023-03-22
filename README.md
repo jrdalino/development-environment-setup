@@ -5,48 +5,44 @@
 - Step 1: Install Homebrew. This intalls Xcodedevelop tools
 ```
 $ mkdir environment && cd environment
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew update
 $ brew doctor
 ```
-
+brw 
 - Step 2: Install Productivity Applications
 ```
-$ brew cask install microsoft-office
-$ brew cask install google-backup-and-sync
-$ brew cask install google-chrome
-$ brew cask install firefox
-$ brew cask install kindle
-$ brew cask install spotify
-$ brew cask install adobe-acrobat-reader
-$ brew install --cask dropbox
+$ brew install --cask microsoft-office
+$ brew install --cask google-backup-and-sync
+$ brew install --cask google-chrome
+$ brew install --cask firefox
+$ brew install --cask kindle
+$ brew install --cask spotify
+$ brew install --cask adobe-acrobat-reader
 ```
 
 - Step 3: Install Communications
 ```
-$ brew cask install slack
-$ brew cask install whatsapp
-$ brew cask install wechat
-$ brew cask install zoomus
-$ brew cask install skype
-$ brew cask install microsoft-teams
-$ brew install --cask duet
+$ brew install --caskl slack
+$ brew install --cask whatsapp
+$ brew install --cask zoomus
+$ brew install --cask skype
+$ brew install --cask microsoft-teams
+$ brew install --cask amazon-chime
+$ brew install --cask google-chat
 ```
 
 - Step 4: Install Developer Tools
 ```
 $ brew install node # this installs npm as well
 $ brew install yarn
-$ brew cask install sublime-text
-$ brew cask install visual-studio-code
-$ brew cask install visual-studio
+$ brew install --cask sublime-text
+$ brew install --cask visual-studio-code
 $ brew install --cask intellij-idea
-$ brew cask install postman
-$ brew cask install docker
-$ brew cask install virtualbox
-$ brew cask install vagrant
-$ brew cask install vagrant-manager
-$ brew cask install nosql-workbench-for-amazon-dynamodb
+$ brew install --cask postman
+$ brew install --cask rancher
+$ brew install --cask virtualbox
+$ brew install --cask nosql-workbench-for-amazon-dynamodb
 $ brew install mkdocs
 ```
 
@@ -56,22 +52,16 @@ $ brew install git
 $ brew install ansible
 $ brew install terraform
 $ brew install awscli
-$ brew cask install google-cloud-sdk
+$ brew install --cask google-cloud-sdk
 $ brew install azure-cli
 $ brew install kubectl
 $ brew install aws-iam-authenticator
 $ brew install jq
 $ brew install wget
-$ brew cask install ngrok
+$ brew install --cask ngrok
 ```
 
-- Step 6: Install the following manually
-```
-- Windows Remote Desktop
-- OpenVPN Client or Cisco Client VPN
-```
-
-- Step 7: Install if/when needed
+- Step 6: Install if/when needed
 ```
 - Serverless Framework
 - AWS SAM
