@@ -23,9 +23,9 @@ $ brew install --cask adobe-acrobat-reader
 
 - Step 3: Install Communications
 ```
-$ brew install --caskl slack
+$ brew install --cask slack
 $ brew install --cask whatsapp
-$ brew install --cask zoomus
+$ brew install --cask zoom
 $ brew install --cask skype
 $ brew install --cask microsoft-teams
 $ brew install --cask amazon-chime
