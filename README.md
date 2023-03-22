@@ -40,6 +40,7 @@ $ brew install yarn
 $ brew install --cask sublime-text
 $ brew install --cask visual-studio-code
 $ brew install --cask intellij-idea
+$ brew install --cask android-studio
 $ brew install --cask postman
 $ brew install --cask rancher
 $ brew install --cask virtualbox
