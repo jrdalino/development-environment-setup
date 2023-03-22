@@ -14,6 +14,7 @@ brw
 ```
 $ brew install --cask microsoft-office
 $ brew install --cask google-backup-and-sync
+$ brew install --cask google-drive
 $ brew install --cask google-chrome
 $ brew install --cask firefox
 $ brew install --cask kindle
