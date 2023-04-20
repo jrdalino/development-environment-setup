@@ -2,6 +2,8 @@
 
 - Note: Python3, Pip3, virtualenv are already installed
 
+- Step 0: Install https://ohmyz.sh/
+
 - Step 1: Install Homebrew. This intalls Xcodedevelop tools
 ```
 $ mkdir environment && cd environment
