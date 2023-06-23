@@ -53,6 +53,7 @@ $ brew install mkdocs
 
 - Step 5: Install commandline tools
 ```
+$ brew install gnupg
 $ brew install git
 $ brew install ansible
 $ brew install terraform
