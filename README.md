@@ -38,6 +38,9 @@ $ brew install --cask webex
 
 - Step 4: Install Developer Tools
 ```
+$ brew install gnupg
+$ brew install git
+$ brew install --cask github
 $ brew install node # this installs npm as well
 $ brew install yarn
 $ brew install --cask sublime-text
@@ -53,8 +56,6 @@ $ brew install mkdocs
 
 - Step 5: Install commandline tools
 ```
-$ brew install gnupg
-$ brew install git
 $ brew install ansible
 $ brew install terraform
 $ brew install awscli
