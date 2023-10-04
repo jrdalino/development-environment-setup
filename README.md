@@ -34,6 +34,7 @@ $ brew install --cask microsoft-teams
 $ brew install --cask amazon-chime
 $ brew install --cask google-chat
 $ brew install --cask webex
+$ brew install --cask messenger
 ```
 
 - Step 4: Install Developer Tools
