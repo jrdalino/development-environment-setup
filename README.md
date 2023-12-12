@@ -70,6 +70,11 @@ $ brew install wget
 $ brew install --cask ngrok
 ```
 
+- AWS Amplify
+```
+npm install -g @aws-amplify/cli
+```
+
 - Step 6: Install if/when needed
 ```
 - Serverless Framework
@@ -82,3 +87,8 @@ $ brew install --cask ngrok
 - network scanner: nmap
 - http load testing: wrk, wrk2, ab, siege, 
 ```
+
+
+
+
+
