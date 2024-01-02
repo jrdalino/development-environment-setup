@@ -42,11 +42,11 @@ $ brew install --cask messenger
 $ brew install gnupg
 $ brew install git
 $ brew install --cask github
+$ brew install openjdk
 $ brew install node # this installs npm as well
 $ brew install yarn
 $ brew install --cask sublime-text
 $ brew install --cask visual-studio-code
-$ brew install --cask intellij-idea
 $ brew install --cask intellij-idea-ce
 $ brew install --cask android-studio
 $ brew install --cask postman
@@ -54,7 +54,7 @@ $ brew install --cask rancher
 $ brew install --cask virtualbox
 $ brew install --cask nosql-workbench-for-amazon-dynamodb
 $ brew install mkdocs
-$ brew install openjdk
+
 ```
 
 - Step 5: Install commandline tools
