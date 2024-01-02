@@ -54,6 +54,7 @@ $ brew install --cask rancher
 $ brew install --cask virtualbox
 $ brew install --cask nosql-workbench-for-amazon-dynamodb
 $ brew install mkdocs
+$ brew install openjdk
 ```
 
 - Step 5: Install commandline tools
