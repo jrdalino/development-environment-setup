@@ -43,6 +43,7 @@ $ brew install gnupg
 $ brew install git
 $ brew install --cask github
 $ brew install openjdk
+$ brew install gradle
 $ brew install node # this installs npm as well
 $ brew install yarn
 $ brew install --cask sublime-text
