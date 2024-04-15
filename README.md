@@ -22,7 +22,7 @@
 % sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- Step 4: Manually install Forticlient VPN
+- Step 4: Manually install Forticlient VPN from https://www.fortinet.com/support/product-downloads#vpn
 
 - Step 5: Install Productivity Applications
 ```
