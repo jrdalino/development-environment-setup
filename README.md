@@ -1,18 +1,25 @@
 # My Development Environment Setup (MacOS)
 
-- Note: Python3, Pip3, virtualenv are already installed
+- Step 1: Install https://ohmyz.sh/
 
-- Step 0: Install https://ohmyz.sh/
+- Step 2: Install Comand Line Developer Tools 
+```
+% xcode-select --install
+```
 
-- Step 1: Install Homebrew. This intalls Xcodedevelop tools
+- Step 3: Install Homebrew, Homebrew installs the latest python, pip and setuptools packages
 ```
 $ mkdir environment && cd environment
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew update
 $ brew doctor
 ```
-brw 
-- Step 2: Install Productivity Applications
+```
+% brew install python3
+% pip install3 virtualenv
+```
+
+- Step 4: Install Productivity Applications
 ```
 $ brew install --cask microsoft-office
 $ brew install --cask google-backup-and-sync
@@ -24,7 +31,7 @@ $ brew install --cask spotify
 $ brew install --cask adobe-acrobat-reader
 ```
 
-- Step 3: Install Communications
+- Step 5: Install Communications
 ```
 $ brew install --cask slack
 $ brew install --cask whatsapp
@@ -37,7 +44,7 @@ $ brew install --cask webex
 $ brew install --cask messenger
 ```
 
-- Step 4: Install Developer Tools
+- Step 6: Install Developer Tools
 ```
 $ brew install gnupg
 $ brew install git
@@ -58,7 +65,7 @@ $ brew install mkdocs
 
 ```
 
-- Step 5: Install commandline tools
+- Step 7: Install commandline tools
 ```
 $ brew install ansible
 $ brew install terraform
@@ -72,12 +79,12 @@ $ brew install wget
 $ brew install --cask ngrok
 ```
 
-- AWS Amplify
+- Step 8: Install AWS Amplify
 ```
 npm install -g @aws-amplify/cli
 ```
 
-- Step 6: Install if/when needed
+- Step 9: Install if/when needed
 ```
 - Serverless Framework
 - AWS SAM
@@ -89,8 +96,3 @@ npm install -g @aws-amplify/cli
 - network scanner: nmap
 - http load testing: wrk, wrk2, ab, siege, 
 ```
-
-
-
-
-
