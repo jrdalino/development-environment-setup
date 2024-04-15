@@ -22,11 +22,12 @@
 % sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- Step 4: Install Productivity Applications
+- Step 4: Manually install Forticlient VPN
+
+- Step 5: Install Productivity Applications
 ```
 % brew install --cask adobe-acrobat-reader
 % brew install --cask firefox
-% brew install openfortivpn
 % brew install --cask nordvpn
 % brew install --cask google-chrome
 % brew install --cask google-drive
@@ -35,7 +36,7 @@
 % brew install --cask spotify
 ```
 
-- Step 5: Install Communications
+- Step 6: Install Communications
 ```
 % brew install --cask amazon-chime
 % brew install --cask google-chat
@@ -48,7 +49,7 @@
 % brew install --cask zoom
 ```
 
-- Step 6: Install Developer Tools
+- Step 7: Install Developer Tools
 ```
 % brew install --cask android-studio
 % brew install git
@@ -57,7 +58,7 @@
 % brew install --cask postman
 % brew install --cask rancher
 % brew install --cask sublime-text
-% brew install --cask virtualbox
+% brew install --cask vmware-fusion
 % brew install --cask visual-studio-code
 
 % brew install gnupg
@@ -69,7 +70,7 @@ $ brew install --cask nosql-workbench-for-amazon-dynamodb
 $ brew install mkdocs
 ```
 
-- Step 7: Install commandline tools
+- Step 8: Install commandline tools
 ```
 $ brew install ansible
 $ brew install terraform
@@ -83,12 +84,12 @@ $ brew install wget
 $ brew install --cask ngrok
 ```
 
-- Step 8: Install AWS Amplify
+- Step 9: Install AWS Amplify
 ```
 npm install -g @aws-amplify/cli
 ```
 
-- Step 9: Install if/when needed
+- Step 10: Install if/when needed
 ```
 - Serverless Framework
 - AWS SAM
