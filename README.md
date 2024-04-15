@@ -1,23 +1,31 @@
 # My Development Environment Setup (MacOS)
 
-- Step 1: Install Homebrew, Homebrew installs the latest python, pip, setuptools packages and Comand Line Developer Tools 
+- Step 1: Install Homebrew. Homebrew installs the latest python, pip and xcode Comand Line Developer Tools. In Addition, run these two commands in your terminal to add Homebrew to your PATH.
 ```
 % mkdir environment && cd environment
 % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+% (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jose.dalino/.zprofile
+% eval "$(/opt/homebrew/bin/brew shellenv)"
 % brew update
+% brew upgrade
+% brew cleanup
 % brew doctor
 ```
 
-- Step 1: Install https://ohmyz.sh/
-
-
+- Step 2: Install and Setup virtualenv
 ```
-% brew install python3
-% pip install3 virtualenv
+% pip3 install virtualenv
+```
+
+- Step 3: Install https://ohmyz.sh/
+```
+% sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 - Step 4: Install Productivity Applications
 ```
+$ brew install --cask adobe-acrobat-reader
+
 $ brew install --cask microsoft-office
 $ brew install --cask google-backup-and-sync
 $ brew install --cask google-drive
@@ -25,17 +33,19 @@ $ brew install --cask google-chrome
 $ brew install --cask firefox
 $ brew install --cask kindle
 $ brew install --cask spotify
-$ brew install --cask adobe-acrobat-reader
+
 ```
 
 - Step 5: Install Communications
 ```
+$ brew install --cask amazon-chime
+
 $ brew install --cask slack
 $ brew install --cask whatsapp
 $ brew install --cask zoom
 $ brew install --cask skype
 $ brew install --cask microsoft-teams
-$ brew install --cask amazon-chime
+
 $ brew install --cask google-chat
 $ brew install --cask webex
 $ brew install --cask messenger
