@@ -72,16 +72,17 @@ $ brew install mkdocs
 
 - Step 8: Install commandline tools
 ```
-$ brew install ansible
-$ brew install terraform
 $ brew install awscli
-$ brew install --cask google-cloud-sdk
-$ brew install azure-cli
-$ brew install kubectl
 $ brew install aws-iam-authenticator
+$ brew install azure-cli
+$ brew install --cask google-cloud-sdk
 $ brew install jq
-$ brew install wget
+$ brew install kubectl
 $ brew install --cask ngrok
+$ brew install terraform
+$ brew install wget
+
+$ brew install ansible
 ```
 
 - Step 9: Install AWS Amplify
