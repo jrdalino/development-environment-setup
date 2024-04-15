@@ -24,52 +24,49 @@
 
 - Step 4: Install Productivity Applications
 ```
-$ brew install --cask adobe-acrobat-reader
-
-$ brew install --cask microsoft-office
-$ brew install --cask google-backup-and-sync
-$ brew install --cask google-drive
-$ brew install --cask google-chrome
-$ brew install --cask firefox
-$ brew install --cask kindle
-$ brew install --cask spotify
-
+% brew install --cask adobe-acrobat-reader
+% brew install --cask firefox
+% brew install openfortivpn
+% brew install --cask nordvpn
+% brew install --cask google-chrome
+% brew install --cask google-drive
+% brew install --cask kindle
+% brew install --cask microsoft-office
+% brew install --cask spotify
 ```
 
 - Step 5: Install Communications
 ```
-$ brew install --cask amazon-chime
-
-$ brew install --cask slack
-$ brew install --cask whatsapp
-$ brew install --cask zoom
-$ brew install --cask skype
-$ brew install --cask microsoft-teams
-
-$ brew install --cask google-chat
-$ brew install --cask webex
-$ brew install --cask messenger
+% brew install --cask amazon-chime
+% brew install --cask google-chat
+% brew install --cask messenger
+% brew install --cask microsoft-teams
+% brew install --cask skype
+% brew install --cask slack
+% brew install --cask webex
+% brew install --cask whatsapp
+% brew install --cask zoom
 ```
 
 - Step 6: Install Developer Tools
 ```
-$ brew install gnupg
-$ brew install git
-$ brew install --cask github
-$ brew install openjdk
-$ brew install gradle
-$ brew install node # this installs npm as well
-$ brew install yarn
-$ brew install --cask sublime-text
-$ brew install --cask visual-studio-code
-$ brew install --cask intellij-idea-ce
-$ brew install --cask android-studio
-$ brew install --cask postman
-$ brew install --cask rancher
-$ brew install --cask virtualbox
+% brew install --cask android-studio
+% brew install git
+% brew install --cask github
+% brew install --cask intellij-idea-ce
+% brew install --cask postman
+% brew install --cask rancher
+% brew install --cask sublime-text
+% brew install --cask virtualbox
+% brew install --cask visual-studio-code
+
+% brew install gnupg
+% brew install openjdk
+% brew install gradle
+% brew install node # this installs npm as well
+% brew install yarn
 $ brew install --cask nosql-workbench-for-amazon-dynamodb
 $ brew install mkdocs
-
 ```
 
 - Step 7: Install commandline tools
