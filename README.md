@@ -1,19 +1,16 @@
 # My Development Environment Setup (MacOS)
 
+- Step 1: Install Homebrew, Homebrew installs the latest python, pip, setuptools packages and Comand Line Developer Tools 
+```
+% mkdir environment && cd environment
+% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+% brew update
+% brew doctor
+```
+
 - Step 1: Install https://ohmyz.sh/
 
-- Step 2: Install Comand Line Developer Tools 
-```
-% xcode-select --install
-```
 
-- Step 3: Install Homebrew, Homebrew installs the latest python, pip and setuptools packages
-```
-$ mkdir environment && cd environment
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-$ brew update
-$ brew doctor
-```
 ```
 % brew install python3
 % pip install3 virtualenv
